@@ -8,7 +8,6 @@ function Columns(props) {
             {props.rows.map((i) =>
                 <Item key={i} valueX={i} valueY={props.valueY}></Item>
             )}
-            {/* {props.valueY} */}
         </tr>
     );
 }

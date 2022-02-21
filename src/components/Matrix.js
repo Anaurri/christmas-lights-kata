@@ -13,12 +13,11 @@ function Matrix() {
         return array;
     }
 
-    const col = createArray(5);
-    const row = createArray(3);
+    const col = createArray(10);
+    const row = createArray(10);
 
     return (
         <div>
-            <h1>Matrix</h1>
             <table>
                 {col.map((i) =>
                     <Columns key={i} valueY={i} rows={row}></Columns>
